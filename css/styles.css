@@ -568,6 +568,63 @@ background-color: #31D0AA;
 fill: #F4F4FD;
 }
 
+/*================SUBSCRIBE==============*/
+
+.footer-form {
+display: flex;
+align-items: center;
+}
+
+.subscribe-label {
+display: flex;
+}
+
+.subscribe-field {
+width: 264px;
+height: 40px;
+margin-right: 12px;
+padding: 16px;
+color: var(--white-color);
+outline: unset;
+background-color: transparent;
+border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+
+transition: background-color var(--anim-main) ;
+}
+
+.subscribe-field:focus {
+border-color:  var(--third-text-color);
+}
+
+.subscribe-button {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 200px;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(30/16);
+letter-spacing: 0.04em;
+padding: 8px 24px;
+border: none;
+color: var(--white-color);
+background-color: var(--third-text-color);
+
+border-radius: 4px;
+cursor: pointer;
+}
+
+.subscribe-button:hover, .subscribe-button:focus {
+background-color: var(--accent-color)
+}
+
+.send-icon {
+fill: var(--white-color)
+}
+
+
 /*================BACKDROP==============*/
 
 .backdrop {
@@ -785,8 +842,8 @@ transition: background-color var(--anim-main);
 
 .modal-button:hover,
 .modal-button:focus {
-    color: var(--white-color);
-    background-color: var(--accent-color);
+color: var(--white-color);
+background-color: var(--accent-color);
 }
 
 
