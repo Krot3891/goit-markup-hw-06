@@ -666,7 +666,7 @@ font-size: 12px;
 background-color: transparent;
 outline: transparent;
 
-transition: var(--anim-main);
+transition: background-color var(--anim-main);
 }
 
 .modal-input:focus {
@@ -717,7 +717,7 @@ border-radius: 4px;
 background-color: transparent;
 resize: none;
 
-transition: background-color var(--anim-main);
+transition: border-color var(--anim-main);
 }
 
 .modal-comment:focus {
