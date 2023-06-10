@@ -653,6 +653,7 @@ margin-bottom: 8px;
 
 .input-wrap {
 position: relative;
+margin-bottom: 16px;
 }
 
 .modal-input {
@@ -684,7 +685,7 @@ left: 16px;
 top: 50%;
 transform: translateY(-50%);
 
-transition: var(--anim-main);
+transition: fill var(--anim-main);
 }
 
 .input-label {
@@ -716,7 +717,7 @@ border-radius: 4px;
 background-color: transparent;
 resize: none;
 
-transition: var(--anim-main);
+transition: background-color var(--anim-main);
 }
 
 .modal-comment:focus {
@@ -749,7 +750,14 @@ fill: transparent;
 transition: background-color var(--anim-main),
 border var(--anim-main),
 fill var(--anim-main);
+}
 
+.check-icon {
+display: inline-flex;
+}
+
+.modal-agree-link {
+color: var(--third-text-color)
 }
 
 .modal-check:checked + .check-text span {
