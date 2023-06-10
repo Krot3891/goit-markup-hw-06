@@ -648,12 +648,12 @@ color: var(--primary-text-color);
 }
 
 .modal-field {
-margin-bottom: 8px;
+margin-bottom: 4px;
 }
 
 .input-wrap {
 position: relative;
-margin-bottom: 16px;
+margin-bottom: 8px;
 }
 
 .modal-input {
