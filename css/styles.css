@@ -644,10 +644,12 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
+color: var(--primary-text-color);
 }
 
 .modal-field {
 margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .input-wrap {
@@ -661,6 +663,10 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 padding-left: 38px;
 font-size: 12px;
+background-color: transparent;
+outline: transparent;
+
+transition: var(--anim-main);
 }
 
 .modal-input:focus {
@@ -678,6 +684,8 @@ position: absolute;
 left: 16px;
 top: 50%;
 transform: translateY(-50%);
+
+transition: var(--anim-main);
 }
 
 .input-label {
@@ -690,6 +698,7 @@ letter-spacing: 0.04em;
 color: #8E8F99;
 }
 
+
 .modal-comment {
 display: block;
 width: 100%;
@@ -698,9 +707,14 @@ padding: 8px 16px;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
+outline: transparent;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
+background-color: transparent;
 resize: none;
+
+transition: var(--anim-main);
 }
 
 .modal-comment:focus {
