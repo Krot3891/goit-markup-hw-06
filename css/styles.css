@@ -648,7 +648,7 @@ color: var(--primary-text-color);
 }
 
 .modal-field {
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .input-wrap {
@@ -699,7 +699,7 @@ color: #8E8F99;
 }
 
 .input-wrap {
-margin-bottom: 8px;
+margin-bottom: 24px;
 }
 
 .modal-comment {
@@ -736,7 +736,7 @@ color: #8e8f99;
 }
 
 .check-text span {
-/*display: inline-flex;*/
+display: inline-flex;
 width: 16px;
 height: 16px;
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -751,10 +751,6 @@ transition: background-color var(--anim-main),
 border var(--anim-main),
 fill var(--anim-main);
 }
-
-/*.check-icon {
-display: inline-flex;
-}*/
 
 .modal-agree-link {
 color: var(--third-text-color)
