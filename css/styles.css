@@ -766,6 +766,10 @@ border: none;
 fill: var(--primary-background-color);
 }
 
+.wrapper {
+display: inline-flex;
+}
+
 .modal-button {
 font-family: inherit;
 font-weight: 500;
