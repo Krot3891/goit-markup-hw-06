@@ -752,9 +752,9 @@ border var(--anim-main),
 fill var(--anim-main);
 }
 
-.check-icon {
+/*.check-icon {
 display: inline-flex;
-}
+}*/
 
 .modal-agree-link {
 color: var(--third-text-color)
