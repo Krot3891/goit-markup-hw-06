@@ -583,10 +583,6 @@ display: flex;
 align-items: center;
 }
 
-.subscribe-label {
-display: flex;
-}
-
 .subscribe-field {
 width: 264px;
 height: 40px;
