@@ -836,6 +836,11 @@ fill: var(--primary-background-color);
 
 .wrapper {
 display: inline-flex;
+
+}
+
+.modal-field-comment {
+margin-bottom: 16px;
 }
 
 .modal-form-checkbox {
