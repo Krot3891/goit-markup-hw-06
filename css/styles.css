@@ -834,10 +834,10 @@ border: none;
 fill: var(--primary-background-color);
 }
 
-.wrapper {
+/*.wrapper {
 display: inline-flex;
 
-}
+}*/
 
 .modal-field-comment {
 margin-bottom: 16px;
