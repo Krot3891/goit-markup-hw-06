@@ -798,7 +798,7 @@ outline: transparent;
 }
 
 .check-text {
-display: inline-flex;
+
 align-items: center;
 font-weight: 400;
 font-size: 12px;
@@ -808,13 +808,12 @@ color: #8e8f99;
 }
 
 .check-text span {
-
+display: inline-flex;
 width: 16px;
 height: 16px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 2px;
 margin-right: 8px;
-display: flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
